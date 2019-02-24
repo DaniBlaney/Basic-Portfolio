@@ -1,0 +1,194 @@
+
+body {
+  background: url('../images/gaming-pattern.png') repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  width: 960px;
+  margin: 10, 50px;
+  padding: 50px;
+}
+
+header {
+  background: white;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+  font-style: bold;
+}
+
+header h1 {
+  background: #4aaaa5;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  font-size: 25px;
+  margin: 0;
+}
+
+nav {
+  width: 300px;
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  color: #333;
+  font-size: 18px;
+  padding: 5px 15px;
+  border-right: 2px solid #4aaaa5;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  position: absolute;
+  width: 321px;
+  right: -128px;
+}
+
+nav ul li:last-child a {
+  border-right: none;
+  padding: none;
+}
+
+h2 {
+  border-bottom: 2px solid #ccc;
+}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 8px;
+  background: #666;
+  border-top: 3px solid #666;
+  color: #ccc;
+  text-align: center;
+  margin-top: 25px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  background-color: #4aaaa5;
+  color: #ccc;
+}
+
+form {
+  width: 100px;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+.picture {
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 1px solid #777777;
+}
+
+
+
+.portfolioitems {
+  position: relative;
+  margin-bottom: 20px;
+  width: 45%;
+  float: left;
+  height: 250px;
+}
+
+.portfolioitems:nth-of-type(even) {
+  float: right;
+}
+
+.portfolioitems h4 {
+  background: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+  overflow: auto;
+  margin-bottom: 120px;
+}
+
+#column{
+  background: white;
+  padding: 25px;
+  border: 2px solid #ccc;
+  height: auto;
+}
+
+#emailbox{
+  width: 495px;
+}
+
+#namebox{
+  width: 495px;
+}
+
+#messagebox{
+  width: 495px;
+  height: 300px;
+}
+
+#Pixel1 {
+  background-image: url('../images/pixel1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Pixel2 {
+  background-image: url('../images/pixel2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#Pixel3 {
+  background-image: url('../images/pixel3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Pixel4 {
+  background-image: url('../images/pixel4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Pixel5 {
+  background-image: url('../images/pixel5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#Pixel6 {
+  background-image: url('../images/pixel6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* clear fix???*/
